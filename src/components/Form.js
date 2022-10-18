@@ -16,7 +16,7 @@ const Form = ({ setData, dataPaciente, updatePaciente, setUpdatePaciente }) => {
                 return paciente.id === updatePaciente.id ? data : paciente
             })
             setData(updatedPacientes)
-            alert(" Appointment updated successfull")
+            alert(" Updated successfull")
             setUpdatePaciente(null)
             reset()
             return
@@ -24,12 +24,12 @@ const Form = ({ setData, dataPaciente, updatePaciente, setUpdatePaciente }) => {
 
         console.log(dataPaciente.length)
         if (dataPaciente.length == 3) {
-            alert("Solo se puede registrar con un maximo de 3")
+            alert("YOU JUST CAN HAVE 3 REGISTER ON YOUR LIST")
             return
         }
 
         data.id = uuidv4();
-        alert("Add new Appointment successfull")
+        alert("Add new objet in successfull")
         setData([...dataPaciente, data])
         reset()
     }
