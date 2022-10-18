@@ -22,7 +22,7 @@ function App() {
 
     const options = {
       title: 'Are you sure?',
-      message: 'Do you want to delete this appointment?',
+      message: 'Do you want to delete this patient?',
       buttons: [
         {
           label: 'Yes',
