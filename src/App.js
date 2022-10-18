@@ -74,14 +74,14 @@ function App() {
 
 
         <div className='flex-1'>
-          <p className='text-base text-gray-900 font-bold'>Seguimiento Pacientes</p>
-          <p className='text-xs text-gray-500  pt-3 pb-10'>Añade Paciente y <strong className='text-purple-600'>Administralos</strong> </p>
+          <p className='text-base text-gray-900 font-bold'>Patient follow-up</p>
+          <p className='text-xs text-gray-500  pt-3 pb-10'>Add Patient and <strong className='text-purple-600'>manage them</strong> </p>
           <Form setData={setData} dataPaciente={data} updatePaciente={updatePaciente} setUpdatePaciente={setUpdatePaciente} />
         </div>
 
         <div className='flex-1'>
-          <p className='text-base text-gray-900 font-bold'>Seguimiento Pacientes</p>
-          <p className='text-xs text-gray-500 pt-3 pb-10'>Lista Paciente y <strong className='text-purple-600'>Administralos</strong> </p>
+          <p className='text-base text-gray-900 font-bold'>Patient follow-up</p>
+          <p className='text-xs text-gray-500  pt-3 pb-10'>Add Patient and <strong className='text-purple-600'>manage them</strong> </p>
           <div className='flex flex-wrap justify-center gap-2' >
 
 
