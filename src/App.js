@@ -88,7 +88,7 @@ function App() {
             {data.length > 0 ? data.map(item =>
               <Card key={item.id} item={item} handleDeleteItem={handleDeleteItem} getPacienteById={getPacienteById} />
             ) :
-              <p className='text-gray-700 font-medium'>No hay paciente registrado</p>
+              <p className='text-gray-700 font-medium'>There is no registered patient </p>
             }
           </div>
         </div>
