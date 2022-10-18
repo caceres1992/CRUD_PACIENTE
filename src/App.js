@@ -3,7 +3,7 @@ import './App.css';
 import Form from './components/Form';
 import Card from './components/Card';
 import { useEffect, useState } from 'react';
-
+import { GiSniffingDog } from 'react-icons/gi'
 import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 
@@ -68,7 +68,7 @@ function App() {
 
   return (
     <div className="bg-gradient-to-t to-purple-500 from-purple-600 min-h-screen h-full">
-      <h1 className='text-3xl text-center  font-bold p-10'>Seguimiento Paciente <span className='text-purple-100'>Veterianaria</span></h1>
+      <h1 className='text-3xl text-center  font-bold p-10 flex justify-center items-center gap-2'>Patient follow-up <span className='text-purple-100 flex items-center gap-2'>Vet <GiSniffingDog size={40} /></span></h1>
 
       <section className='flex flex-col lg:flex-row justify-between  container mx-auto gap-10 bg-white  p-5 lg:p-20 rounded-lg'>
 
